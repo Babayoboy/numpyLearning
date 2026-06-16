@@ -16,3 +16,9 @@ array = pi.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 
 # print(array[::-1])  # Array in reverse
 # print(array[::-2])  # Array in reverse with skiping one
+
+# # print(array[,0]) # Will not work have to add [:,0]
+# print(array[:, 0])  # this print the first column
+# print(array[:, -2])  # this print the secound first column
+# print(array[:, 0:3])  # this prints from first to 3rd column
+# print(array[:, ::2])  # this prints from first to last with skiping 1 column
