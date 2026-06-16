@@ -22,3 +22,8 @@ array = pi.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 # print(array[:, -2])  # this print the secound first column
 # print(array[:, 0:3])  # this prints from first to 3rd column
 # print(array[:, ::2])  # this prints from first to last with skiping 1 column
+# print(array[:, ::-1])  # this prints in reverse order of column
+
+# print(array[0:2, 0:2])
+# print(array[0:2, 2:])
+# print(array[2:, 2:])
